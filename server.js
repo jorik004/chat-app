@@ -27,5 +27,5 @@ app.post('/', (req, res) => {
   res.send(req.body.text)
 })
 
-app.listen(3001, () => console.log('Server started'))
+app.listen(process.env.PORT || 3000, () => console.log('Server started'))
 
