@@ -1,0 +1,32 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add express
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EACCES: permission denied, symlink '../../../mime/cli.js' -> '/storage/emulated/0/node/my-chat-backend/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+    "name": "my-chat-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "WhiteLord",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
