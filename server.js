@@ -1,4 +1,7 @@
 import express from "express"
+import fsb from 'fs'
+
+writeFileSync("hello.txt", "ohoho")
 
 const app = express()
 
